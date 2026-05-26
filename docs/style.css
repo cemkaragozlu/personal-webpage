@@ -135,31 +135,6 @@ p {
   text-decoration: underline;
 }
 
-/* Project grid */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-}
-
-.card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 1.25rem;
-  transition: box-shadow 0.2s, border-color 0.2s;
-}
-
-.card:hover {
-  border-color: var(--accent);
-  box-shadow: 0 4px 16px rgba(194, 98, 45, 0.08);
-}
-
-.card p {
-  font-size: 0.875rem;
-  margin-bottom: 0.75rem;
-}
-
 /* Footer */
 footer {
   text-align: center;
