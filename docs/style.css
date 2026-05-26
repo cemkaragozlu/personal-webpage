@@ -135,6 +135,27 @@ p {
   text-decoration: underline;
 }
 
+/* Contact icons */
+.icons {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.icons a {
+  color: var(--muted);
+  transition: color 0.2s;
+}
+
+.icons a:hover {
+  color: var(--accent);
+}
+
+.icons svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
 /* Footer */
 footer {
   text-align: center;
